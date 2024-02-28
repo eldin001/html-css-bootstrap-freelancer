@@ -1,0 +1,47 @@
+.odd {
+    background-color: #59B89C;
+}
+
+.bottom-footer {
+    background-color: #33404E;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.img img {
+    width: 300px;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 25%;
+    background-color: white;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 25%;
+    background-color: white;
+}
+
+.black-star::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 25%;
+    background-color: #3d3d3d;
+}
+
+.black-star::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 25%;
+    background-color: #3d3d3d;
+}

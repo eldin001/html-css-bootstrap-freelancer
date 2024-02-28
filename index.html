@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand text-uppercase" href="#">start bootsrtap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-uppercase" aria-current="page" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">about</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section id="hero" class="odd">
+            <div class="container">
+                <div class="img d-flex justify-content-center"><img src="img/avatar.svg" alt="avatar"></div>
+                <h1 class="text-uppercase text-center text-light m-5  ">start bootstrap</h1>
+                <div class="star d-flex justify-content-center align-content-center m-4"><i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i></div>
+                <div class="d-flex justify-content-center ">
+                    <span class="text-uppercase text-light fs-2">graphic artist - </span>
+                    <span class="text-uppercase text-light fs-2">web designer - </span>
+                    <span class="text-uppercase text-light fs-2"> illustrator</span>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="text-uppercase text-center m-5 ">Portfolio</h2>
+                <div class="black-star d-flex justify-content-center m-4 text-center "><i class="fa-solid fa-star fa-2xl" style="color: #3d3d3d;"></i></div>
+                <div class="row gy-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/cabin.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/cake.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/circus.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/game.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/safe.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/submarine.png" class="card-img-top" alt="Cabin">
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="about" class="odd">
+            <div class="container">
+                <h2 class="text-uppercase text-light text-center">about</h2>
+                <div class="star d-flex justify-content-center align-content-center m-4"><i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i></div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nostrum qui. Cumque eveniet, saepe alias quia dolore incidunt accusamus veniam consequuntur aspernatur, maxime sequi totam est dolorum consectetur adipisci ex ratione?</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nostrum qui. Cumque eveniet, saepe alias quia dolore incidunt accusamus veniam consequuntur aspernatur, maxime sequi totam est dolorum consectetur adipisci ex ratione?</p>
+                    </div>
+                    <div class="d-flex justify-content-center p-lg-4">
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="top-footer bg-secondary">ciao</div>
+        <div class="bottom-footer">ciao</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
